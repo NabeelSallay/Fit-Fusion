@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Quantico'; /* Replace with the exact name if different */
+    src: url('/public/fonts/Quantico-Regular.ttf') format('truetype');
+    /* Add more src lines for different font formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
